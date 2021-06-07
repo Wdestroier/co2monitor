@@ -1,4 +1,4 @@
-# <img src="https://github.com/Wdestroier/co2monitor/blob/main/assets/images/logo.png?raw=true"/>
+# <img src="https://github.com/Wdestroier/co2monitor/blob/main/front-end/assets/images/logo.png?raw=true"/>
 
 CO₂ Monitor é um projeto simples para o monitoramento da concentração de gás carbônico em salas de aula.
 
