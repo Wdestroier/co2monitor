@@ -1,4 +1,4 @@
-package br.edu.ifsc.co2monitor.model.dto;
+package br.edu.ifsc.co2monitor.domain.model.dto;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package br.edu.ifsc.co2monitor.model;
+package br.edu.ifsc.co2monitor.domain.model;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

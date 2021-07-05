@@ -1,4 +1,4 @@
-package br.edu.ifsc.co2monitor.model.exception;
+package br.edu.ifsc.co2monitor.domain.model.exception;
 
 public class InvalidCnpjException extends RuntimeException {
 

@@ -1,6 +1,6 @@
-package br.edu.ifsc.co2monitor.model;
+package br.edu.ifsc.co2monitor.domain.model;
 
-import br.edu.ifsc.co2monitor.model.exception.InvalidMacException;
+import br.edu.ifsc.co2monitor.domain.model.exception.InvalidMacException;
 import lombok.Data;
 
 @Data

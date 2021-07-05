@@ -3,13 +3,13 @@ package br.edu.ifsc.co2monitor.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.edu.ifsc.co2monitor.model.Mac;
-import br.edu.ifsc.co2monitor.model.Node;
-import br.edu.ifsc.co2monitor.model.Response;
-import br.edu.ifsc.co2monitor.model.ResponseStatus;
-import br.edu.ifsc.co2monitor.model.exception.InvalidMacException;
-import br.edu.ifsc.co2monitor.repository.InstitutionRepository;
-import br.edu.ifsc.co2monitor.repository.NodeRepository;
+import br.edu.ifsc.co2monitor.domain.model.Mac;
+import br.edu.ifsc.co2monitor.domain.model.Node;
+import br.edu.ifsc.co2monitor.domain.model.Response;
+import br.edu.ifsc.co2monitor.domain.model.ResponseStatus;
+import br.edu.ifsc.co2monitor.domain.model.exception.InvalidMacException;
+import br.edu.ifsc.co2monitor.domain.repository.InstitutionRepository;
+import br.edu.ifsc.co2monitor.domain.repository.NodeRepository;
 
 @Service
 public class NodeServiceImpl implements NodeService {

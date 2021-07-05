@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.edu.ifsc.co2monitor.model.Response;
-import br.edu.ifsc.co2monitor.model.dto.NodeDTO;
+import br.edu.ifsc.co2monitor.domain.model.Response;
+import br.edu.ifsc.co2monitor.domain.model.dto.NodeDTO;
 import br.edu.ifsc.co2monitor.service.NodeService;
 
 @RestController

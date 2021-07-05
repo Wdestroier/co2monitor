@@ -1,6 +1,6 @@
-package br.edu.ifsc.co2monitor.model;
+package br.edu.ifsc.co2monitor.domain.model;
 
-import br.edu.ifsc.co2monitor.model.exception.InvalidCnpjException;
+import br.edu.ifsc.co2monitor.domain.model.exception.InvalidCnpjException;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

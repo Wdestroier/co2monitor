@@ -3,12 +3,12 @@ package br.edu.ifsc.co2monitor.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.edu.ifsc.co2monitor.model.Cnpj;
-import br.edu.ifsc.co2monitor.model.Institution;
-import br.edu.ifsc.co2monitor.model.Response;
-import br.edu.ifsc.co2monitor.model.ResponseStatus;
-import br.edu.ifsc.co2monitor.model.exception.InvalidCnpjException;
-import br.edu.ifsc.co2monitor.repository.InstitutionRepository;
+import br.edu.ifsc.co2monitor.domain.model.Cnpj;
+import br.edu.ifsc.co2monitor.domain.model.Institution;
+import br.edu.ifsc.co2monitor.domain.model.Response;
+import br.edu.ifsc.co2monitor.domain.model.ResponseStatus;
+import br.edu.ifsc.co2monitor.domain.model.exception.InvalidCnpjException;
+import br.edu.ifsc.co2monitor.domain.repository.InstitutionRepository;
 
 @Service
 public class InstitutionServiceImpl implements InstitutionService {
