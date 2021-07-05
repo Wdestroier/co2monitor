@@ -1,5 +1,5 @@
 import 'package:co2monitor/config/palette.dart';
-import 'package:co2monitor/models/models.dart';
+import 'package:co2monitor/domain/models/models.dart';
 import 'package:flutter/material.dart';
 
 class NodeReport extends StatelessWidget {

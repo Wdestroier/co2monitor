@@ -2,12 +2,11 @@ import 'package:co2monitor/config/palette.dart';
 import 'package:flutter/material.dart';
 
 class NotFound extends StatelessWidget {
-  final String imageName, textMessage;
+  final String message;
 
   const NotFound({
     Key? key,
-    required this.imageName,
-    required this.textMessage,
+    required this.message,
   }) : super(key: key);
 
   @override
@@ -21,10 +20,10 @@ class NotFound extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.asset(imageName),
+              Image.asset('assets/images/sorry_emoji.png'),
               const SizedBox(height: 20.0),
               Text(
-                textMessage,
+                message,
                 style: const TextStyle(
                   fontSize: 16.0,
                   fontWeight: FontWeight.w500,
